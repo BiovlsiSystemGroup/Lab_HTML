@@ -2,36 +2,37 @@
     background-color: #ffffff;
 }
 
-.container_title {
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(135, 135, 135, 0.1);
+    background-color: rgb(135 135 135 / 10%);
     margin: auto;
     padding: 0;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
+.container-title::before,
+.container-title::after {
     content: '';
     display: flex;
     width: 12.5%;
     height: 3px;
-    background-color: rgba(135, 135, 135, 0.5);
+    background-color: rgb(135 135 135 / 50%);
 }
 
-.container_title::before {
+.container-title::before {
     margin-right: 30px;
 }
-.container_title::after {
+
+.container-title::after {
     margin-left: 30px;
 }
 
-.container_title-text {
+.container-title-text {
     color: #000000;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 25%;
     text-align: center;
 }

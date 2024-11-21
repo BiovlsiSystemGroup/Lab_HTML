@@ -42,7 +42,7 @@
     padding: 5px;
 }
 
-.container_list-container-list-hyperlink {
+.container-list-container-list-hyperlink {
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
@@ -56,6 +56,7 @@
 .news-container-link {
     color: #555555;
 }
+
 .news-container-link:hover {
     color: rgb(100, 75, 225 / 60%);
 }
