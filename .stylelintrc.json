@@ -1,7 +1,9 @@
 {
-    "extends": "stylelint-config-standard",
+    "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier"
+  ],
     "rules": {
-      "indentation": 2,
       "color-hex-length": "long",
       "no-duplicate-selectors": true
     }
