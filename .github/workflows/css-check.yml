@@ -1,0 +1,23 @@
+name: CSS Check
+
+on:
+  push:
+    branches:
+      - develop   # 當 develop 分支有新推送時觸發工作流
+  pull_request:
+    branches:
+      - develop   # 當 PR 指向 develop 時觸發工作流
+
+jobs:
+  css-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Stylelint
+        run: npm install -g stylelint stylelint-config-standard
+
+      - name: Run Stylelint
+        run: stylelint './**/*.css'
