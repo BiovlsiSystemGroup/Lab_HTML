@@ -2,46 +2,47 @@
     background-color: #ffffff;
 }
 
-.container_title {
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(135, 135, 135, 0.1);
+    background-color: rgb(135, 135, 135 / 10%);
     margin: auto;
     padding: 0;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
+.container-title::before,
+.container-title::after {
     content: '';
     display: flex;
     width: 12.5%;
     height: 3px;
-    background-color: rgba(100, 75, 225, 0.5);
+    background-color: rgb(100, 75, 225 / 50%);
 }
 
-.container_title::before {
+.container-title::before {
     margin-right: 30px;
 }
-.container_title::after {
+
+.container-title::after {
     margin-left: 30px;
 }
 
-.container_title-text {
+.container-title-text {
     color: #000000;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 25%;
     text-align: center;
 }
 
-.container_listContainer_list {
+.container-list-container-list {
     overflow: hidden;
     padding: 5px;
 }
 
-.container_listContainer_list_hyperlink {
+.container_list-container-list-hyperlink {
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
@@ -49,17 +50,18 @@
     flex-direction: row;
     width: 80%;
     height: auto;
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
-.newsContainer_link {
+.news-container-link {
     color: #555555;
 }
-.newsContainer_link:hover {
-    color: rgba(100, 75, 225, 0.6);
+.news-container-link:hover {
+    color: rgb(100, 75, 225 / 60%);
 }
+
 /* scroll to the page top btn */
-.scrollToTop {
+.scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -72,11 +74,9 @@
     z-index: 99;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-}
-
-.scrollToTop {
     visibility: hidden;
 }
-.scrollToTop.active {
+
+.scroll-to-top.active {
     visibility: visible;
 }

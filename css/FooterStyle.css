@@ -7,73 +7,75 @@ body {
 .main-content {
     min-height: 100%;
     min-width: 445px;
+    padding: 125px 0 60px 0;
 }
 
 footer {
     position: relative;
     width: 100%;
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0;
     background-color: #323232;
 }
 
-.footer_style {
+.footer-style {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer-text_paragraph {
+.footer-text-paragraph {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     line-height: 1.5em;
 }
 
-.footer-text_link {
+.footer-text-link {
     text-decoration: none;
     color: #ffffff;
 }
-.footer-text_link:hover {
+
+.footer-text-link:hover {
     color: #70c7da;
 }
-.footer-text_link:active {
+
+.footer-text-link:active {
     color: #70c7da;
 }
 
-.main-content {
-    padding: 125px 0px 60px 0px;
-}
-
-@media (min-width: 321px) and (max-width: 480px) {
+@media (321px <= width <= 480px) {
     .main-content {
-        padding: 125px 0px 60px 0px;
+        padding: 93px 0 60px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (481px <= width <= 768px) {
     .main-content {
-        padding: 82px 0px 60px 0px;
+        padding: 82px 0 60px;
     }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (769px <= width <= 991px) {
     .main-content {
-        padding: 120px 0px 60px 0px;
+        padding: 120px 0 60px;
     }
+
     .footer-text {
         font-size: 12px;
         font-weight: bold;
     }
+
     .footer-img .img {
         width: 100%;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (992px <= width <= 1200px) {
     .main-content {
-        padding: 93px 0px 60px 0px;
+        padding: 93px 0 60px;
     }
+
     .footer-text {
         font-size: 12px;
         font-weight: bold;
@@ -82,7 +84,7 @@ footer {
 
 @media (min-width: 1201px) {
     .main-content {
-        padding: 93px 0px 60px 0px;
+        padding: 93px 0 60px;
     }
 
     .footer-text {
@@ -106,5 +108,5 @@ footer {
     font-size: 10px;
     color: #70c7da;
     padding-top: 2em;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
