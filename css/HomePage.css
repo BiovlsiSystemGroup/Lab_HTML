@@ -1,0 +1,233 @@
+@charset "utf-8";
+.carouselContainer
+
+/*最新消息*/
+.section {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 0;
+  padding: 0;
+}
+
+.newsContainer {
+  padding: 30px 30px 0px 30px;
+  /* 圓角 */
+  border-radius: 10px;
+  background-color: rgba(230, 230, 230, 0.2);
+}
+.LabContainer {
+  padding: 30px;
+  /* 圓角 */
+  border-radius: 10px;
+  background-color: rgba(230, 230, 230, 0.2);
+}
+.main-content {
+  background-color: #ffffff;
+}
+
+.newsContainer_link,
+.awardContainer_link,
+.labNoticeContainer_link {
+  color: #555555;
+}
+.newsContainer_link:hover {
+  color: #00bdc9;
+}
+.awardContainer_link:hover {
+  color: rgba(100, 75, 225, 0.6);
+}
+.labNoticeContainer_link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.carousel-control-prev {
+  left: -6%;
+}
+.carousel-control-next {
+  right: -6%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.container_pageTitle,
+.container_awardTitle,
+.container_labTitle {
+  color: #323232;
+  text-decoration: none;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.container_pageTitle,
+.container_awardTitle,
+.container_labTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_pageTitle::before,
+.container_pageTitle::after {
+  content: "";
+  width: 12.5%;
+  height: 3px;
+  background-color: #00bdc9;
+}
+
+.container_labTitle::before,
+.container_labTitle::after {
+  content: "";
+  width: 11.5%;
+  height: 3px;
+  background-color: rgba(135, 135, 135, 0.5);
+}
+
+.container_awardTitle::before,
+.container_awardTitle::after {
+  content: "";
+  width: 12.5%;
+  height: 3px;
+  background-color: rgba(100, 75, 225, 0.2);
+}
+
+.container_pageTitle::before,
+.container_labTitle::before,
+.container_awardTitle::before {
+  margin-right: 30px;
+}
+.container_pageTitle::after,
+.container_labTitle::after,
+.container_awardTitle::after {
+  margin-left: 30px;
+}
+
+.container_list {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #00bdc9;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.container_list_hyperlink {
+  display: flex;
+  position: relative;
+}
+
+.container_list_hyperlink-date,
+.container_list_hyperlink-classType,
+.container_list_hyperlink-title {
+  color: #595757;
+  text-decoration: none;
+  line-height: 20px;
+  transition: color 0.3s;
+  white-space: nowrap;
+}
+
+/* 獲獎訊息背景顏色 */
+.container_list_hyperlink-classType.news {
+  background-color: rgba(139, 198, 101, 0.2);
+}
+.container_list_hyperlink-classType.award {
+  /* background-color: rgba(225, 213, 115, .4); */
+  background-color: rgba(100, 75, 225, 0.2);
+}
+.container_list_hyperlink-classType.labnotice {
+  background-color: rgba(135, 135, 135, 0.2);
+}
+
+.container_list_hyperlink:hover * {
+  color: #70c7da;
+}
+
+.btn-outline-info {
+  font-size: 25px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: 0.15rem #00bdc9 solid;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+  background-color: #00bdc9;
+  color: #fff;
+}
+
+.btn.Award {
+  border: 0.15rem rgba(100, 75, 225, 0.6) solid;
+}
+
+.btn.Award:hover,
+.btn.Award:active,
+.btn.Award:focus,
+.btn.Award:active:focus {
+  box-shadow: none;
+  background-color: rgba(100, 75, 225, 0.6);
+  color: #fff;
+}
+
+/* scroll to the page top btn */
+.scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  color: #00bdc9;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  z-index: 99;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.scrollToTop {
+  visibility: hidden;
+}
+.scrollToTop.active {
+  visibility: visible;
+}
+
+@media (min-width: 1400px){
+  .carouselContainer{
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carouselContainer {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carouselContainer {
+    max-width: 960px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .newsDate {
+    display: none;
+  }
+}
+
+@media (min-width: 1198px) {
+  .banner {
+    height: auto;
+  }
+}
+
+

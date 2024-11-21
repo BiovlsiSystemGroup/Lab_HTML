@@ -1,0 +1,251 @@
+            <section class="section news">
+                <h2 class="container_pageTitle">News</h2>
+                <div class="container-lg newsContainer">
+                    <!-- 第一筆訊息 -->
+                    <a href="./news/recruit/researchArea.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">Research Direction</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 第二筆訊息 -->
+                    <a href="./news/recruit/recruit-1_2024.html" class="newsContainer_link"
+                        style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    Start recruiting master students
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 第三筆訊息 -->
+                    <a href="./news/recruit/recruit-2.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    Start recruiting sophomores
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/news/LabNews1-5.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-05
+                            </div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType news m-0 text-center align-items-center justify-content-center d-flex">
+                                News
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">雲林科技大學辦理國際講座，邀請日本國際企業大師重磅開講</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/Award/Award-23.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2023-01</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    賀！2023教育部智慧晶片系統與應用人才培育計畫 獲示範模組教材
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/Award/Award-21.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-06</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    賀！2022黑客松技職盃全國大賽北區分區賽 獲佳作
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/Award/Award-20.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-06</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">賀！第十屆師生創新圓夢計畫 獲網路人氣獎</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="inner2022-2.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-05</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">賀！本實驗室獲得行動應用App基本資安標準</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="d-flex align-items-center justify-content-center m-3">
+                        <a href="AllNewsPage.html">
+                            <button class="btn">
+                                More
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section labAward">
+                <h2 class="container_awardTitle">Award</h2>
+                <div class="container-lg newsContainer">
+                    <a href="./news/Award/Award-23.html" class="awardContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2023-01</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    賀！2023教育部智慧晶片系統與應用人才培育計畫 獲示範模組教材
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/Award/Award-21.html" class="awardContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-06</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">
+                                    賀！2022黑客松技職盃全國大賽北區分區賽 獲佳作
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./news/Award/Award-20.html" class="awardContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-06</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">賀！第十屆師生創新圓夢計畫 獲網路人氣獎</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="inner2022-2.html" class="awardContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">2022-05</div>
+                            <div
+                                class="col-sm-2 container_list_hyperlink-classType award m-0 text-center align-items-center justify-content-center d-flex">
+                                Award
+                            </div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">賀！本實驗室獲得行動應用App基本資安標準</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="d-flex align-items-center justify-content-center m-3">
+                        <a href="AwardPage.html">
+                            <button class="btn Award">
+                                More
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section labNotice">
+                <h2 class="container_labTitle">Lab Notice</h2>
+                <div class="container-lg LabContainer">
+                    <!-- 第一筆訊息 -->
+                    <a href="./news/recruit/researchArea.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice</div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">跨領域系統暨生醫應用設計實驗室研究方向</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 第二筆訊息 -->
+                    <a href="./news/recruit/recruit-1_2024.html" class="newsContainer_link"
+                        style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice</div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">開始招募碩班新生</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 第三筆訊息 -->
+                    <a href="./news/recruit/recruit-2.html" class="newsContainer_link" style="text-decoration: none">
+                        <div class="row mt-1">
+                            <div class="col-sm-1 m-0 newsDate">
+                                2024-07
+                            </div>
+                            <div
+                                class="col-md-2 container_list_hyperlink-classType labnotice m-0 text-center align-items-center justify-content-center d-flex">
+                                Lab Notice</div>
+                            <div class="col-lg-8 m-0">
+                                <h5 class="m-0">開始招募大二專題新生</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>

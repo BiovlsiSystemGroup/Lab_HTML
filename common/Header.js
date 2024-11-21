@@ -1,0 +1,65 @@
+document.write(`
+    <style>
+        .navbar a, .navbar .dropdown-item, .navbar .offcanvas-title {
+            font-size: 1.25rem; /* 字體大小可調整 */
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar_container_hyperlink" href="./index.html">
+                <img src="./images/nav_logo.svg" class="navbar_container_hyperlink_img" alt="跨領域系統暨生醫應用設計實驗室" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">目錄Content</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">最新消息</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./AllNewsPage.html">全部訊息</a></li>
+                                <li><a class="dropdown-item" href="./NewsPage.html">新聞訊息</a></li>
+                                <li><a class="dropdown-item" href="./AwardPage.html">獲獎訊息</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="./LabNoticePage.html">實驗室公告</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./ResearchTeam.html">研究團隊</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">研究成果</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="ResearchResultsPage.html">生醫與運動</a></li>
+                                <li><a class="dropdown-item" href="ResearchResultsPage-2.html">元宇宙與車用</a></li>
+                                <li><a class="dropdown-item" href="ResearchResultsPage-3.html">3C與智慧聯網</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-3 navbar_language_ul">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">語言Language</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="index.html" aria-label="中文網頁">中文</a>
+                                    <a class="dropdown-item" href="en/index.html" aria-label="English Page">English</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+`);
