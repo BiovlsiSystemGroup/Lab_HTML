@@ -22,7 +22,7 @@
 
 .container_title::before,
 .container_title::after {
-  content: "";
+  content: '';
   display: flex;
   width: 12.5%;
   height: 3px;
