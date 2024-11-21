@@ -3,10 +3,10 @@ a {
 }
 
 .main-content {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
-/*最新消息*/
+/* 最新消息 */
 .section {
     width: 100%;
     height: auto;
@@ -15,43 +15,47 @@ a {
     padding: 0;
 }
 
-.container_title {
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(135, 135, 135, 0.1);
+    background-color: rgb(135 135 135 / 10%);
     margin: auto;
     padding: 0;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
+.container-title::before,
+.container-title::after {
     content: '';
     display: flex;
     width: 12.5%;
     height: 3px;
-    padding: 0px 2px;
-    background-color: rgba(135, 135, 135, 0.5);
+    padding: 0 2px;
+    background-color: rgb(135 135 135 / 50%);
 }
-.container_title::before {
+
+.container-title::before {
     margin-right: 30px;
 }
-.container_title::after {
+
+.container-title::after {
     margin-left: 30px;
 }
 
-.container_title-text {
+.container-title-text {
     color: #000000;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
-.teacherContainer_btn {
+
+.teacher-container-btn {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .btn {
     border: 0.15rem #00bdc9 solid;
 }
@@ -62,14 +66,15 @@ a {
 .btn:active:focus {
     box-shadow: none;
     background-color: #00bdc9;
-    color: #fff;
+    color: #ffffff;
 }
 
-.btnContainer {
+.btn-container {
     display: flex;
     align-items: center;
 }
-/* .teacherContainer_content{
+
+/* .teacher-container-content {
     position: absolute;
     bottom: 0;
 } */

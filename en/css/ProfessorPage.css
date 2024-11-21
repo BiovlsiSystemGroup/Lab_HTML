@@ -1,81 +1,75 @@
 .main-content {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
-/*最新消息*/
+
+/* 最新消息 */
 .section {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 0;
-  padding: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
 }
 
-.container_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(135, 135, 135, 0.1);
-  margin: auto;
-  padding: 0;
-  border-radius: 0px 0px 10px 10px;
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135 135 135 / 10%);
+    margin: auto;
+    padding: 0;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
-  content: '';
-  display: flex;
-  width: 12.5%;
-  height: 3px;
-  padding: 0px 2px;
-  background-color: #00bdc9;
-}
-.container_title::before {
-  margin-right: 30px;
-}
-.container_title::after {
-  margin-left: 30px;
+.container-title::before,
+.container-title::after {
+    content: '';
+    display: flex;
+    width: 12.5%;
+    height: 3px;
+    padding: 0 2px;
+    background-color: #00bdc9;
 }
 
-.container_title-text {
-  color: #000000;
-  /* font-weight: bold; */
-  margin: 0px;
-  padding: 0px;
-  width: 25%;
-  text-align: center;
+.container-title::before {
+    margin-right: 30px;
 }
 
-.teacherContainer_content_link,
-.teacherContainer_content_link:hover,
-.teacherContainer_content_link:visited,
-.teacherContainer_content_link:active,
-.teacherContainer_content_link:focus,
-.teacherContainer_content_link:link {
-  text-decoration: none;
+.container-title::after {
+    margin-left: 30px;
 }
 
-.teacherContainer_content_link{
-  padding: 5px;
-  border: 2px solid #878787;
-  border-radius: 5px;
+.container-title-text {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    text-align: center;
 }
 
-.teacherContainer_content_link{
-  color: #878787;
+.teacher-container-content-link {
+    color: #878787;
+    padding: 5px;
+    border: 2px solid #878787;
+    border-radius: 5px;
+    text-decoration: none;
 }
-.teacherContainer_content_link:hover {
-  color: #fff;
-  background-color: #878787;
+
+.teacher-container-content-link:hover {
+    color: #ffffff;
+    background-color: #878787;
 }
-.teacherContainer_content_link:active{
-  color: #00adc9;
+
+.teacher-container-content-link:active {
+    color: #00adc9;
 }
 
 /* 回到研究團隊頁面按鍵 */
 .btn {
-  border: 0.15rem #00bdc9 solid;
+    border: 0.15rem #00bdc9 solid;
 }
+
 .btn:hover {
-  background-color: #00bdc9;
-  color: #fff;
+    background-color: #00bdc9;
+    color: #ffffff;
 }

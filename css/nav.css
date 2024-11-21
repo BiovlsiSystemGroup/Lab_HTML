@@ -19,7 +19,7 @@
 .custom-navbar .nav-link {
     font-size: 18px;
     font-weight: 500;
-    color: #333;
+    color: #333333;
     transition: color 0.3s ease;
 }
 
@@ -29,7 +29,7 @@
 
 .custom-navbar .dropdown-menu {
     border: none;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgb(0, 0, 0 / 10%);
 }
 
 .custom-navbar .dropdown-item {

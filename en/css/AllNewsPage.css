@@ -1,103 +1,108 @@
 .main-content {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
-/*最新消息*/
+
+/* 最新消息 */
 .section {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 0;
-  padding: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
 }
 
-.container_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(135, 135, 135, 0.1);
-  margin: auto;
-  padding: 0;
-  border-radius: 0px 0px 10px 10px;
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135 135 135 / 10%);
+    margin: auto;
+    padding: 0;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
-  content: "";
-  display: flex;
-  width: 12.5%;
-  height: 3px;
-  padding: 0px 2px;
-  background-color: #00bdc9;
-}
-.container_title::before {
-  margin-right: 30px;
-}
-.container_title::after {
-  margin-left: 30px;
+.container-title::before,
+.container-title::after {
+    content: '';
+    display: flex;
+    width: 12.5%;
+    height: 3px;
+    padding: 0 2px;
+    background-color: #00bdc9;
 }
 
-.container_title-text {
-  color: #000000;
-  /* font-weight: bold; */
-  margin: 0px;
-  padding: 0px;
-  width: 25%;
-  text-align: center;
+.container-title::before {
+    margin-right: 30px;
 }
+
+.container-title::after {
+    margin-left: 30px;
+}
+
+.container-title-text {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    text-align: center;
+}
+
 /* 每一則訊息的底色 */
-.newsContainer_link {
-  color: #555555;
-}
-/* 每一則訊息碰觸後改變的顏色 */
-.newsContainer_link:hover {
-  color: #00bdc9;
-}
-/* 新聞消息背景顏色 */
-.container_list_hyperlink-classType.news {
-  background-color: rgba(139, 198, 101, 0.2);
-}
-/* 獲獎訊息背景顏色 */
-.container_list_hyperlink-classType.award {
-  background-color: rgba(100, 75, 225, 0.2);
-}
-/* 實驗室公告顏色 */
-.container_list_hyperlink-classType.labnotice {
-  background-color: rgba(135, 135, 135, 0.2);
+.news-container-link {
+    color: #555555;
 }
 
-.container_list_hyperlink-classType {
-  color: #595757;
-  text-decoration: none;
-  line-height: 20px;
-  transition: color 0.3s;
-  white-space: nowrap;
+/* 每一則訊息碰觸後改變的顏色 */
+.news-container-link:hover {
+    color: #00bdc9;
+}
+
+/* 新聞消息背景顏色 */
+.container-list-hyperlink-classtype.news {
+    background-color: rgb(139 198 101 / 20%);
+}
+
+/* 獲獎訊息背景顏色 */
+.container-list-hyperlink-classtype.award {
+    background-color: rgb(100 75 225 / 20%);
+}
+
+/* 實驗室公告顏色 */
+.container-list-hyperlink-classtype.labnotice {
+    background-color: rgb(135 135 135 / 20%);
+}
+
+.container-list-hyperlink-classtype {
+    color: #595757;
+    text-decoration: none;
+    line-height: 20px;
+    transition: color 0.3s;
+    white-space: nowrap;
 }
 
 /* scroll to the page top btn */
-.scrollToTop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  color: #00bdc9;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  z-index: 99;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    color: #00bdc9;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
 }
 
-.scrollToTop {
-  visibility: hidden;
-}
-.scrollToTop.active {
-  visibility: visible;
+.scroll-to-top.active {
+    visibility: visible;
 }
 
-@media (max-width: 1200px) {
-  .newsDate {
-    display: none;
-  }
+@media (width <= 1200px) {
+    .news-date {
+        display: none;
+    }
 }
