@@ -1,11 +1,7 @@
 {
-    "extends": [
-    "stylelint-prettier/recommended",
-    "stylelint-config-prettier"
-  ],
+    "extends": ["stylelint-config-standard"],
     "rules": {
-      "color-hex-length": "long",
-      "no-duplicate-selectors": true
+        "color-hex-length": "long",
+        "color-no-invalid-hex": true
     }
-  }
-  
+}
