@@ -1,7 +1,8 @@
 .main-content {
     background-color: #ffffff;
 }
-/*最新消息*/
+
+/* 最新消息 */
 .section {
     width: 100%;
     height: auto;
@@ -10,62 +11,69 @@
     padding: 0;
 }
 
-.container_title {
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(135, 135, 135, 0.1);
+    background-color: rgba(135, 135, 135, 10%);
     margin: auto;
     padding: 0;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-.container_title::before,
-.container_title::after {
+.container-title::before,
+.container-title::after {
     content: '';
     display: flex;
     width: 12.5%;
     height: 3px;
-    padding: 0px 2px;
+    padding: 0 2px;
     background-color: #00bdc9;
 }
-.container_title::before {
+
+.container-title::before {
     margin-right: 30px;
 }
-.container_title::after {
+
+.container-title::after {
     margin-left: 30px;
 }
 
-.container_title-text {
+.container-title-text {
     color: #000000;
     /* font-weight: bold; */
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 25%;
     text-align: center;
 }
+
 /* 每一則訊息的底色 */
-.newsContainer_link {
+.newsContainer-link {
     color: #555555;
 }
+
 /* 每一則訊息碰觸後改變的顏色 */
-.newsContainer_link:hover {
+.newsContainer-link:hover {
     color: #00bdc9;
 }
+
 /* 新聞消息背景顏色 */
-.container_list_hyperlink-classType.news {
-    background-color: rgba(139, 198, 101, 0.2);
-}
-/* 獲獎訊息背景顏色 */
-.container_list_hyperlink-classType.award {
-    background-color: rgba(100, 75, 225, 0.2);
-}
-/* 實驗室公告顏色 */
-.container_list_hyperlink-classType.labnotice {
-    background-color: rgba(135, 135, 135, 0.2);
+.container-list-hyperlink-classType.news {
+    background-color: rgba(139, 198, 101, 20%);
 }
 
-.container_list_hyperlink-classType {
+/* 獲獎訊息背景顏色 */
+.container-list-hyperlink-classType.award {
+    background-color: rgba(100, 75, 225, 20%);
+}
+
+/* 實驗室公告顏色 */
+.container-list-hyperlink-classType.labnotice {
+    background-color: rgba(135, 135, 135, 20%);
+}
+
+.container-list-hyperlink-classType {
     color: #595757;
     text-decoration: none;
     line-height: 20px;
@@ -74,7 +82,7 @@
 }
 
 /* scroll to the page top btn */
-.scrollToTop {
+.scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -89,15 +97,16 @@
     transition: all 0.3s ease-in-out;
 }
 
-.scrollToTop {
+.scroll-to-top {
     visibility: hidden;
 }
-.scrollToTop.active {
+
+.scroll-to-top.active {
     visibility: visible;
 }
 
 @media (max-width: 1200px) {
-    .newsDate {
+    .news-date {
         display: none;
     }
 }
