@@ -3,13 +3,7 @@
     "rules": {
       "indentation": 2,
       "color-hex-length": "long",
-      "no-duplicate-selectors": true,
-      "selector-class-pattern": [
-        "^[a-z][a-z0-9-]+$",
-        {
-          "ignore": ["/^Accordion/"] 
-        }
-      ]
+      "no-duplicate-selectors": true
     }
   }
   
