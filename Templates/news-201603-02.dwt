@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>news2015</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+.word1 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+#apDiv8 {
+	position:absolute;
+	width:1026px;
+	height:70px;
+	left: 50%;
+	margin-left:-513px;
+	top: 180px;
+	background-position:center;
+}
+
+.word4 {
+	font-family: "預設字體";
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+}
+
+body {
+	background-color: #FFF;
+	font: 標楷體;
+	border: 0;
+
+	 
+		 
+}
+#apDiv6 {
+	position: absolute;
+	width: 840px;
+	height: 70px;
+	left: 50%;
+	margin-left:-430px;
+	top: 149px;
+	background-position: center;
+	z-index: 2;
+}
+#apDiv8 {
+	position: absolute;
+	width: 140px;
+	height: 72px;
+	left: 50%;
+	margin-left:-70px;
+	top: 300px;
+	z-index: 3;
+	
+}
+#apDiv4{
+	position: absolute;
+	width: 860px;
+	height: 116px;
+	left: 50%;
+	margin-left:-430px;
+	top: 1217px;
+	z-index: 2;
+}
+#apDiv2 {
+	position: absolute;
+	width: 840px;
+	height: 526px;
+	left: 50%;
+	margin-left:-430px;
+	top: 299px;
+	z-index: 2;
+}
+
+#apDiv10{
+	width: 860px;
+	height: 1300px;
+	background-image: url(../web%20picture/button/news.png);
+	background-repeat: no-repeat;
+	z-index:1;
+	position: absolute;
+	left: 50%;
+	margin-left:-430px;
+	top: 33px;
+	}
+.word3 {
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #FFF;
+}
+.word6 {
+	color: #F00;
+	font-size: 18px;
+	
+}
+.word9 {
+	color: #FFF;
+}
+.word9 {
+	font-weight: bold;
+}
+.word9 {
+	font-size: x-small;
+}
+.word9 {
+	font-size: larger;
+}
+.word9 {
+	font-size: xx-large;
+}
+.word9 {
+	font-size: large;
+}
+.word10 {
+	font-weight: 600;
+}
+.word10 {
+	font-size: 18px;
+}
+.word10 {
+	font-size: 16px;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#apDiv1 {
+	position: absolute;
+	width: 860px;
+	height: 115px;
+	left: 50%;
+	margin-left:-430px;
+	top: 23px;
+	z-index: 2;
+}
+
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+ <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv8">
+<img src="../web picture/label.png" width="145" height="104">
+</div><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+ 
+
+<div id="apDiv4" style="cursor:pointer;" onclick="location.href=
+'http://www.yuntech.edu.tw';">
+  
+  
+  <table width="860" height="120" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td ><a href="http://www.yuntech.edu.tw">&nbsp;</a></td>
+  </tr>
+</table></div>
+<p>&nbsp;</p>
+<div id="apDiv1" style="cursor:pointer;" onclick="location.href=
+'index.html';">
+</div>
+<p>&nbsp;</p>
+<div id="apDiv6">
+    <table width="850" border="0">
+  <tr bgcolor="#FFFFFF">
+    <th width="200" height="70"  ><table width="804" border="0">
+      <tr bgcolor="#FFFFFF">
+        <th width="185" height="70"  ><a href="../news.html" class="word3"><img src="../web picture/main/news1.png" width="162" height="57" /></a></th>
+        <th width="210" height="70"  ><a href="../Introduce.html" class="word3"><img src="../web picture/main/introduce1.png" width="154" height="50" /></a></th>
+        <th width="198" height="70"><a href="../achievement.html" class="word3"><img src="../web picture/main/product1.png" width="150" height="50" /></a></th>
+        <th width="217" height="70"  ><a href="../relative.html" class="word3"><img src="../web picture/main/links1.png" width="154" height="48" /></a></th>
+      </tr>
+    </table>     
+  </tr>
+  </table>
+</div>
+<div id="apDiv2"  >
+<table width="840px" height="512" align="center" >
+          <tr >
+            <td width="840" height="57" align="center" style="font-size:32px; color:red; font-family:標楷體" >&nbsp;</td> 
+    </tr>
+                    <tr >
+            <td width="840" height="30" >&nbsp;</td>
+          </tr>
+          <tr >
+            <td width="840" height="30" >&nbsp;</td>
+          </tr>
+    <tr >
+            <td align="center" width="840" height="6" style="font-size:18px" > <span style="color:red; font-weight:1000; font-size:22px; font-family:標楷體">本團隊&nbsp;&nbsp;研發&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          </tr>
+          <tr align="center" style=" color:blue; font-size:22px; font-family:標楷體">
+            <td height="4">室內溫溼度監控</td>
+          </tr>
+          <tr align="center" style=" color:blue; font-size:22px; font-family:標楷體">
+            <td height="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          </tr>
+          <tr align="center" style=" color:blue; font-size:22px; font-family:標楷體">
+            <td height="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          </tr> 
+          <tr>
+          <tr>
+            <td height="4" align="center" style="font-size:22px; font-family:標楷體">參加&nbsp;&nbsp;<span style=" color:red;font-size:24px;font-family:"> 2017 智慧生活黑客松技職盃全國大賽北區分區賽</span></td>
+          </tr>
+          <tr>
+            <td height="4" style="font-size:22px; font-family:標楷體">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 獲得&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red; font-size:30px">佳作</span></td>
+          </tr>
+          <tr>
+            <td height="4">&nbsp;</td>
+          </tr>
+           <td height="4">&nbsp;</td>
+         
+          <tr>
+           </tr>
+         
+          
+          <tr>
+            <td height="4" align="center"><img src="../picture/106/med02.jpg" width="350" height="450" /></td>
+          </tr>  
+           <tr><td height="4">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="4">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="4" align="center">&nbsp;</td>
+          </tr>
+         
+           
+            
+          </tr>
+         
+          
+</table>
+</div>
+
+
+<div id="apDiv10"></div>
+<p>&nbsp;</p>
+</body>
+</html>

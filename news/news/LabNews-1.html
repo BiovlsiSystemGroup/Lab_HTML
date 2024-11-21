@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台大雲林分院APP競賽 叫吃藥、找失智老人通通有-跨領域系統暨生醫應用設計實驗室</title>
+  <meta name="description" content="跨領域系統暨生醫應用設計實驗室，由薛雅馨教授及柯明達助理教授指導，致力於發展生物醫學領域、智慧醫療領域、運動科技、物聯網等...">
+  <meta name="keywords" content="跨領域系統, 生醫應用, 智慧醫療, 運動科技, 物聯網, 元宇宙, 雲科大電子">
+  <meta name="author" content="Cross-disciplinary Systems and Biomedical Applications Design Laboratory">
+  <meta name="copyright" content="跨領域系統暨生醫應用設計實驗室">
+  <meta property="og:image" content="https://biovlsi.yuntech.edu.tw/logo_final.svg">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/HeaderStyle.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/NewsPage.css">
+  <link rel="stylesheet" type="text/css" href="../../css/FooterStyle.css" />
+  <link rel="icon" href="https://biovlsi.yuntech.edu.tw/logo_final.svg" type="image/svg+xml" />
+  <link rel="shortcut icon" href="https://biovlsi.yuntech.edu.tw/logo_final.svg" type="image/svg+xml" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+
+  <script type="application/ld+json">
+   {
+       "@context": "https://schema.org",
+       "@type": "Organization",
+       "name": "跨領域系統暨生醫應用設計實驗室",
+       "url": "https://biovlsi.yuntech.edu.tw/",
+       "logo": "https://biovlsi.yuntech.edu.tw/logo_final.svg",
+       "description": "由薛雅馨教授及柯明達助理教授指導，致力於發展生物醫學領域、智慧醫療領域、運動科技、物聯網等..."
+       "parentOrganization": {
+        "@type": "EducationalOrganization",
+        "name": "國立雲林科技大學",
+        "url": "http://www.yuntech.edu.tw"
+      }
+   }
+   </script>
+</head>
+
+<body class="background">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar_container_hyperlink" href="https://biovlsi.yuntech.edu.tw/index.html">
+        <img src="https://biovlsi.yuntech.edu.tw/images/nav_logo.svg" class="navbar_container_hyperlink_img"
+          alt="跨領域系統暨生醫應用設計實驗室" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            目錄Content
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://biovlsi.yuntech.edu.tw/index.html">
+                首頁
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                最新消息
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/AllNewsPage.html">
+                    全部訊息
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/NewsPage.html">
+                    新聞訊息
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/AwardPage.html">
+                    獲獎訊息
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/LabNoticePage.html">
+                    實驗室公告
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://biovlsi.yuntech.edu.tw/ResearchTeam.html">
+                研究團隊
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                研究成果
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/ResearchResultsPage.html">
+                    生醫與運動
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/ResearchResultsPage-2.html">
+                    元宇宙與車用
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/ResearchResultsPage-3.html">
+                    3C與智慧聯網
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-3 navbar_language_ul">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                語言Language
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/">
+                    中文
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://biovlsi.yuntech.edu.tw/en/index.html">
+                    英文
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="main-content">
+      <section class="section news">
+        <div class="container labnoticeContainer">
+          <div class="container_title mt-2">
+            <h2 class="container_title-text m-0">新聞消息<br>News</h2>
+          </div>
+          <div class="container">
+            <div class="banner">
+              <h3>新聞標題：</h3>
+              <h2>
+                <b>
+                  台大雲林分院APP競賽 叫吃藥、找失智老人通通有
+                </b>
+              </h2>
+              <p>新聞來源：中時新聞網</p>
+              <div>
+                <div>
+                  <img src="../../images/News/News_lab-8.jpg" title="藥物鬧鐘APP開發出爐，藥劑部主任廖玲巧第一個請老爸試用，發現父親不僅準時吃藥，而且腦袋更靈活"
+                    alt="藥物鬧鐘APP開發出爐，藥劑部主任廖玲巧第一個請老爸試用">
+                  <p class="pic_news_content">藥物鬧鐘APP開發出爐，藥劑部主任廖玲巧第一個請老爸試用，發現父親不僅準時吃藥，而且腦袋更靈活。（周麗蘭攝）
+                  </p>
+                </div>
+
+
+                <div>
+                  <img src="../../images/News/News_lab-8_1.jpg" title="台大雲林分院藥劑部與雲科大電子系團隊研發APP，可準時提醒病患吃對藥"
+                    alt="台大雲林分院藥劑部與雲科大電子系團隊研發APP，可準時提醒病患吃對藥">
+                  <p>台大雲林分院藥劑部與雲科大電子系團隊研發APP，可準時提醒病患吃對藥。</p>
+                </div>
+
+                <div>
+                  <img src="../../images/News/News_lab-9.jpg" alt="台大雲林分院第二屆App應用軟體競賽共28組參賽，金獎到銅獎分別可獲10萬、8萬、6萬元獎金。">
+                  <p>台大雲林分院第二屆App應用軟體競賽共28組參賽，金獎到銅獎分別可獲10萬、8萬、6萬元獎金。(周麗蘭攝)</p>
+                </div>
+              </div>
+              <p class="news_content">
+                科技來自需求，台大雲林分院舉辦App競賽，神經內科提出「無需基礎設施的失智老人室內慣性定位裝置」，可讓在室內亂走的失智老人無所遁形；藥劑部提出服藥鬧鐘App，提醒老人家該吃藥，且吃對藥、吃對量、吃對時間。
+                <br><br>
+                失智老人容易在眾多房間、醫院的廁所走失，或躲在置物櫃內，用GPS定位的App無用武之地，台大雲林分
+                院神經內科因此與雲科大電機所合作開發室內的定位裝置。
+                <br><br>
+                主治醫師方禎文、雲科大電機所學生賴祖浩表示，只用手機軟體內的陀螺儀、線性加速計開發出「無需基礎設施的失智老人室內慣性定位裝置」App，最大特色是可用於室內、不需wifi、更精準，方圓30公尺內都找得到人，誤差只1至2公尺。
+                <br><br>
+                國內拿長期處方簽的病患很多，一天吃超過10種藥的老人多，但藥物的服用時段、用量不同，不識字的吃錯藥很尋常。
+                <br><br>
+                雲科大電子系副教授薛雅馨表示，失智老人會吃錯，正常人也很頭痛，她母親曾1天1顆藥吃成1日3次，此一服藥鬧鐘的App可辨識藥物外觀、提醒吃藥、記錄個人用藥歷程。
+                <br><br>
+                藥劑部主任廖玲巧指出，此App只要掃瞄院內藥袋上的QR code就行，就會顯示照片、藥名、用量、時段、服用天數，時間到會有鬧鈴提醒，她第一個拿給父親試用，效果不錯。
+                <br><br>
+                廖玲巧說，額外的收穫是自從父親跟App打交道後，因為認真學習，腦袋更靈活。
+                <br><br>
+                服藥鬧鐘App仍在測試階段還未上架，在競賽脫穎而出才有機會面世。
+                <br><br>
+                同樣等待競賽脫穎而出面世的還有「陪跑App」，對於需要復健或肥胖病人須長期療程者，透過虛擬的寵物一同運動，增加較高的成就與娛樂感，降低病人對運動的排斥感。
+                <br><br>
+                台大雲林分院第二屆App應用軟體競賽共28組參賽，金獎到銅獎分別可獲10萬、8萬、6萬元獎金。
+                <br><br>
+                台大雲林分院內科部主任蔡佳緹表示，國內持有手機者1355萬人，平板電腦有604萬人，兩者加起來的普及率已達69.1%，光是過去半年內疚增加101萬使用者，透過App應用設計，可以提供更便利的醫療服務。
+
+              </p>
+
+            </div>
+          </div>
+
+          <div class="back_news">
+            <a href="../../NewsPage.html" class="btn"><b>回到新聞消息</b></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row mt-1">
+        <div class="col">
+          <div class="footer-text">
+            <p class="footer-text_paragraph">國立雲林科技大學 電子工程系<br>跨領域系統暨生醫應用設計實驗室&amp;智慧醫療研究中心</p>
+            <a href="../../images/yuntech_map2021.jpg" target="_blank" class="footer-text_link">64002
+              雲林縣斗六市大學路3段123號（校園地圖下載）</a>
+            <p class="footer-text_paragraph">電話+886-5-534-2601 分機4374,4378</p><br>
+            <p class="footer-text_paragraph">National Yunlin University of Science and
+              Technology,<br>Department
+              of Electronic Engineering</p>
+            <p class="footer-text_paragraph">123 University Road, Section 3, Douliou, Yunlin 64002, Taiwan,
+              R.O.C.</p>
+            <p class="footer-text_paragraph">Phone&nbsp;+886-5-534-2601 &nbsp;Ext 4374,4378</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <iframe title="國立雲林科技大學地圖"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.4398022978494!2d120.53406480000001!3d23.6959835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec804c079615b%3A0xdf19d859983954be!2z5ZyL56uL6Zuy5p6X56eR5oqA5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1719317373387!5m2!1szh-TW!2stw"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <div class="row mt-1">
+          <p class="copyright text-center">©Biovlsi. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

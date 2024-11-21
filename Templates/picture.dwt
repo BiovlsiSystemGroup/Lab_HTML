@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>無標題文件</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+.word1 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: bold;
+}
+body div {
+	height: 100px;
+	width: 1225px;
+}
+body div {
+	background-color: #FFF;
+}
+#apDiv3 {
+	width:940px;
+	height:auto;
+	z-index:auto;
+	margin:auto;
+	top: 0px;
+	right: auto;
+}
+.word4 {
+	font-family: "預設字體";
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+}
+#apDiv5 {
+	position:absolute;
+	width:940px;
+	height:50px;
+	z-index:1;
+	margin:auto;
+	top: 0px;
+}
+body {
+	background-color: #333;
+}
+#apDiv6 {
+	position:absolute;
+	width:940px;
+	height:105px;
+	z-index:1;
+	margin:auto;
+	top: 180px;
+	left: auto;
+}
+
+#apDiv2 {
+	position:absolute;
+	width:940px;
+	height:125px;
+	z-index:2;
+	top: 55px;
+}
+
+.word3 {
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #FFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 468px;
+	top: 1003px;
+}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+#apDiv3 table {
+	text-align: center;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="apDiv3">
+  <div id="apDiv5">
+    <table width="940" height="50" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="721" bgcolor="#000000"><span class="word4"><span class="word4">　</span>生醫系統與晶片設計實驗室<a name="A100" id="A100"></a></span></td>
+        <td width="219" bgcolor="#000000" class="word4">　最後更新:2014/11/27</td>
+      </tr>
+    </table>
+  </div>
+  <p>&nbsp;</p>
+  <div id="apDiv2"><img src="../web%20picture/Logo.jpg" width="304" height="123" /><span class="word1">Wellcome to BIO&amp;VLSI　LAB</span></div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div id="apDiv6">
+    <table width="940" height="101" border="1">
+      <tr bgcolor="#FFFFFF">
+        <th width="217" height="97" bgcolor="#006699" class="word2" scope="col"><a href="../news.html" class="word3">News</a></span><a href="../Untitled-1.html"></a></th>
+        <th width="224" height="100" bgcolor="#006699" class="word2" scope="col"><span class="word3"><a href="../Advisor.html" class="word3">Advisor</a></span></th>
+        <th width="227" height="97" bgcolor="#006699" class="word2" scope="col"><a href="../member.html" class="word3"><span class="word3">Member</span></a></th>
+        <th width="234" height="97" bgcolor="#006699" class="word2" scope="col"><a href="../achievement.html" class="word3"><span class="word3">Achievements</span></a></th>
+      </tr>
+    </table>
+  </div>
+  <!-- InstanceBeginEditable name="EditRegion1" -->
+  <table width="940">
+    <tr>
+      <td><p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <p> 　　　　　　　　　　　　　　　　</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p></p>
+<!-- InstanceEndEditable --></div>
+</body>
+<!-- InstanceEnd --></html>

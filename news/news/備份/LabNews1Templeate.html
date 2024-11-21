@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="utf-8" />
+    <!-- 最新消息標題 -->
+    <title>跨領域系統暨生醫應用設計實驗室|新聞消息</title>
+    <!--網頁標題左側顯示-->
+    <link rel="icon" type="image/svg+xml" href="../../images/logo.svg" />
+    <!--收藏夾顯示圖示-->
+    <link rel="shortcut icon" type="image/svg+xml" href="../../images/logo.svg" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/HeaderStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../../LabNews.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/FooterStyle.css" />
+</head>
+
+<body class="background">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar_container_hyperlink" href="../../index.html">
+                <img src="../../images/nav_logo.svg" class="navbar_container_hyperlink_img" alt="跨領域系統暨生醫應用設計實驗室" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        目錄Content
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../index.html">
+                                首頁
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                最新消息
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="../../AllNewsPage.html">
+                                        全部訊息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../../NewsPage.html">
+                                        新聞訊息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../../AwardPage.html">
+                                        獲獎訊息
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../../LabNoticePage.html">
+                                        實驗室公告
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../inner2.html">
+                                研究團隊
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                研究成果
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="../../ResearchResultsPage.html"> 生醫與運動 </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../../ResearchResultsPage-2.html"> 元宇宙與車用 </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../../ResearchResultsPage-3.html"> 3C與光通訊 </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-3 navbar_language_ul">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                語言Language
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#"> 中文 </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"> 英文 </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main-content">
+            <div class="container AwardNews">
+                <div class="container_title mt-2">
+                    <h2 class="container_title-text m-0">新聞消息<br />News</h2>
+                </div>
+                <div class="container">
+                    <div class="col">
+                        <div class="row text-center mt-3">
+                            <h2>
+                                <b>標題</b>
+                            </h2>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="mh-50 text-center">
+                                    <img src="路徑" hight="auto" width="100%" />
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-up"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                                    </svg>照片描述
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="mh-50 text-center">
+                                        <img src="路徑" hight="auto" width="100%" />
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-up"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                                        </svg>照片2描述
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-center m-3">
+                                <a href="../../AllNewsPage.html" class="btn"><b>回到最新消息</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row mt-1">
+                <div class="col">
+                    <div class="footer-text">
+                        <p class="footer-text_paragraph">國立雲林科技大學 電子工程系<br>跨領域系統暨生醫應用設計實驗室&amp;智慧醫療研究中心</p>
+                        <a href="../../images/yuntech_map2021.jpg" target="_blank" class="footer-text_link">64002
+                            雲林縣斗六市大學路3段123號（校園地圖下載）</a>
+                        <p class="footer-text_paragraph">電話+886-5-534-2601 分機4374,4378</p><br>
+                        <p class="footer-text_paragraph">National Yunlin University of Science and
+                            Technology,<br>Department
+                            of Electronic Engineering</p>
+                        <p class="footer-text_paragraph">123 University Road, Section 3, Douliou, Yunlin 64002, Taiwan,
+                            R.O.C.</p>
+                        <p class="footer-text_paragraph">Phone&nbsp;+886-5-534-2601 &nbsp;Ext 4374,4378</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <div class="footer-img">
+                        <div class="img">
+                            <a
+                                href="https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E9%9B%B2%E6%9E%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@23.6922411,120.5327551,17z/data=!3m1!4b1!4m5!3m4!1s0x346ec804c079615b:0xdf19d859983954be!8m2!3d23.6922362!4d120.5349438">
+                                <img src="../../images/cantact-map.jpg" alt="" class="map-2" draggable="false"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="row mt-1">
+                    <p class="copyright text-center">©Biovlsi. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

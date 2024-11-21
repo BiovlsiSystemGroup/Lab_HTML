@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+　
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>news2016</title>
+<!-- TemplateEndEditable -->
+
+<style type="text/css">
+
+.word1 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: bold;
+}
+#smoothdiv{
+	position: absolute;
+	width: 191px;
+	height: 436px;
+	left: 50%;
+	margin-left:435px;
+	top: 462px;
+}
+#apDiv8 {
+	position:absolute;
+	width:1026px;
+	height:70px;
+	left: 50%;
+	margin-left:-513px;;
+	top: 180px;
+	background-position:center;
+}
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    81% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.word4 {
+	font-family: "預設字體";
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+}
+
+body {
+	background-color: #FFF;
+	font: 標楷體;
+	border: 0;
+
+	 
+		 
+}
+#apDiv6 {
+	position: absolute;
+	width: 838px;
+	height: 78px;
+	left: 50%;
+	margin-left:-419px;
+	top: 143px;
+	background-position: center;
+	z-index: 2;
+}
+#apDiv8 {
+	position: absolute;
+	width: 850px;
+	height: 148px;
+	left: 50%;
+	margin-left:-425px;
+	top: 278px;
+	z-index: 2;
+	border-bottom-style: solid;
+	border-bottom-color: #3C9;
+}
+#apDiv4{
+	position: absolute;
+	width: 848px;
+	height: 116px;
+	left: 50%;
+	margin-left:-424px;
+	top: 1217px;
+	z-index: 2;
+}
+#apDiv2 {
+	position: absolute;
+	width: 840px;
+	height: 526px;
+	left: 50%;
+	margin-left:-430px;
+	top:490px;
+	z-index: 2;
+}
+
+#apDiv10{
+	width: 860px;
+	height: 1300px;
+	background-image: url(../web%20picture/button/button.png);
+	background-repeat: no-repeat;
+	z-index:1;
+	position: absolute;
+	left: 50%;
+	margin-left:-430px;
+	top: 33px;
+	}
+.word3 {
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #FFF;
+}
+.word6 {
+	color: #F00;
+	font-size: 18px;
+	
+}
+.word9 {
+	color: #FFF;
+}
+.word9 {
+	font-weight: bold;
+}
+.word9 {
+	font-size: x-small;
+}
+.word9 {
+	font-size: larger;
+}
+.word9 {
+	font-size: xx-large;
+}
+.word9 {
+	font-size: large;
+}
+.word10 {
+	font-weight: 600;
+}
+.word10 {
+	font-size: 18px;
+}
+.word10 {
+	font-size: 16px;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#apDiv1 {
+	position: absolute;
+	width: 860px;
+	height: 115px;
+	left: 50%;
+	margin-left:-430px;
+	top: 23px;
+	z-index: 2;
+}
+
+</style>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+ <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv8">
+<p class="blink" style="color:red"><a href="http://www2.cde.org.tw/MedicalSupplies/med-training/namelist_20160623.htm"><strong style="color:red">薛雅馨老師獲得105年度醫療器材進階法規專員資格，是學界唯一一人。可提供國內廠商相關法規諮詢，歡迎產學研界前來洽談。</strong></a></p>
+<p>本實驗室為生醫系統、電路設計與VLSI研究專業實驗室。 </p>
+<p>生醫系統著重在電刺激電路相關應用以及臨床應用研發，其他研究包含：穿戴應用、LED控制電路, 光通訊應用等VLSI &amp; SOC晶片相關設計</p>
+<p>歡迎對於軟體，電路系統，IC設計興趣的學生（研究生與專題生）加入本實驗室團隊。<a href="../Condition.html">(畢業條件) </a></p>
+<p></div>
+<div id="smoothdiv">
+  
+    <marquee direction="up" behavior="slide" scrolldelay="120" loop="50"  width="120" height="300" style="color:red" >
+    <p style=" font-weight:400">徵107級碩士新生</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <p>『全方位吃藥提醒與服藥紀錄app』參與台大醫院雲林分院app競賽獲第一名</p>
+  <P>&nbsp;</P>
+   <P>&nbsp;</P>  
+    </marquee>
+  
+  <p>&nbsp; </p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv4" style="cursor:pointer;" onclick="location.href=
+'http://www.yuntech.edu.tw';">
+  
+  
+  <table width="860" height="120" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td ><a href="http://www.yuntech.edu.tw">&nbsp;</a></td>
+  </tr>
+</table></div>
+<p>&nbsp;</p>
+<div id="apDiv1" style="cursor:pointer;" onclick="location.href=
+'index.html';">
+</div>
+<p>&nbsp;</p>
+<div id="apDiv6">
+    <table width="850" border="0">
+  <tr bgcolor="#FFFFFF">
+    <th width="200" height="70"  ><table width="804" border="0">
+      <tr bgcolor="#FFFFFF">
+        <th width="185" height="70"  ><a href="../news.html" class="word3"><img src="../web picture/main/news1.png" width="162" height="57" /></a></th>
+        <th width="210" height="70"  ><a href="../Introduce.html" class="word3"><img src="../web picture/main/introduce1.png" width="154" height="50" /></a></th>
+        <th width="198" height="70"><a href="../achievement2015.html" class="word3"><img src="../web picture/main/product1.png" width="150" height="50" /></a></th>
+        <th width="217" height="70"  ><a href="../relative.html" class="word3"><img src="../web picture/main/links1.png" width="154" height="48" /></a></th>
+      </tr>
+    </table>      <a href="../Advisor.html" class="word3"></a></th>
+  </tr>
+  </table>
+</div>
+<div id="apDiv2"  >
+<table width="840px" height="500"  >
+          <tr >
+            <td width="840" height="4" ><a href="../news-201701-01.html">2017/01&nbsp;開始收碩班新生</a></td>
+          </tr>
+          <tr >
+            <td width="840" height="4" ><a href="../news-201712-01.html">2017/10&nbsp;賀！ &nbsp;2017 APEC設計競賽 第一名 自行車書包架 第一名</a></td>
+          </tr>
+          <tr >
+            <td width="840" height="4" ><a href="../news-201712-02.html">2017/05&nbsp;賀！ &nbsp;2017 智慧生活黑客松技職盃全國大賽北區分區賽 室內溫溼度監控 佳作</a></td>
+          </tr>
+          <tr >
+            <td width="840" height="4" ><a href="../news-201712-03.html">2017/04&nbsp;賀！ &nbsp;2017 第二屆健康存摺 加值應用APP創意競賽 全方位吃藥提醒與記錄 第三名</a></td>
+          </tr>
+          <tr >
+            <td width="840" height="4" ><a href="../news-201603-02.html">2016/03&nbsp;賀！ &nbsp;『全方位吃藥提醒與服藥紀錄app』參與台大醫院雲林分院app競賽獲第一名</a></td>
+          </tr>
+         <tr >
+            <td width="840" height="4" ><a href="../news-201603-01.html">2016/03&nbsp;賀！ &nbsp;本實驗室開發『全方位吃藥提醒與服藥紀錄app』參與台大醫院雲林分院app競賽獲好評</a></td>
+          </tr>
+          <tr >
+            <td width="840" height="4" ><a href="../news-201512-03.html">2015/12&nbsp;賀！ &nbsp;2015年智慧電子美學設計展 Light to life 獲得金獎</a></td>
+          </tr>
+                    <tr >
+            <td width="840" height="4" ><a href="../news-201512-01.html">2015/12&nbsp;賀！ &nbsp;2015年智慧電子美學設計 Guard 獲得佳作</a></td>
+          </tr>
+
+          <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201512-04.html">2015/12&nbsp;開始大二專題新生</a></td>
+          </tr>
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201512-05.html">2015/12&nbsp;賀！ &nbsp;2015香港創新科技國際發明展 室內光傳輸電子化標籤 獲得金獎</a></td>
+          </tr>	
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201409-01.html">2014/09&nbsp;賀！ &nbsp;2014年第十屆烏克蘭國際發明展暨發明競賽 穿戴式手部復健訓練系統 獲得金獎</a></td>
+          </tr>
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201407-01.html">2014/07&nbsp;賀！ &nbsp;102學年度全國大學校院智慧電子創新應用與設計競賽 創●光世代 獲得設計完整獎</a></td>
+          </tr>
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201407-02.html">2014/07&nbsp;賀！ &nbsp;102學年度全國大學校院智慧電子創新應用與設計競賽 共乘App-共乘者們! 獲得設計完整獎</a></td>
+          </tr>
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201405-01.html">2014/05&nbsp;賀！ &nbsp;2014 第七屆韓國婦女發明展 萬用安全守護燈 獲得銀獎</a></td>
+          </tr>
+           <tr style=" border-bottom-color:#0F3; border-bottom-style: solid">
+            <td height="4"><a href="../news-201402-02.html">2014/12&nbsp;賀！ &nbsp;2014全國LED創意設計競黑暗守護者 獲得入選獎</a></td>
+          </tr>
+          <tr style=" border-bottom-color:#0F3;     border-bottom-style:solid">
+            <td height="4"><a href="../news-201402-01.html">2014/12&nbsp;賀！ &nbsp;2014全國LED創意設計競賽 腳踏車騎見電 獲得入選獎</a></td>
+          </tr>
+          
+          <tr style=" border-bottom-color:#0F3">
+            <td height="4"><a href="../news-201111-01.html">2013/11&nbsp;賀！ &nbsp;2013年全國能源科技創意實作競賽 大專組 獲得太陽能特別獎</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201307-01.html">2013/05&nbsp;賀！ &nbsp;101學年度全國大學校院智慧電子創新應用與設計競賽 綠能電子創意組 特優</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201307-02.html">2013/05&nbsp;賀！ &nbsp;101學年度全國大學校院智慧電子創新應用與設計競賽 綠能電子創意組 優等獎</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201305-01.html">2013/05&nbsp;賀!&nbsp;&nbsp;&nbsp;2013年第6屆國際婦女發明展暨創意競賽 銀獎</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201305-02.html">2013/05&nbsp;賀!&nbsp;&nbsp;&nbsp;2013年第6屆國際婦女發明展暨創意競賽 俄羅斯特別獎</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201305-03.html">2013/05&nbsp;賀!&nbsp;&nbsp;&nbsp;本團隊以LED燈光控制技術參與知名設計公司～『楓川秀雅』之建築文創展示作品</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201209-02.html">2012/09&nbsp;賀！&nbsp;&nbsp;2012台北國際發明暨技術交易展 銅牌</a></td>
+          </tr>
+          
+          <tr>
+            <td height="4"><a href="../news-201209-01.html">2012/09&nbsp;賀！&nbsp;&nbsp;2012第八屆烏克蘭國際發 金牌</a></td>
+          </tr>
+
+    <tr>
+            <td height="4"><a href="../news-201202-01.html">2012/02&nbsp;賀！&nbsp;2012智慧電子創新應用與設計競賽 佳作</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201112-02.html">2011/12 賀! &nbsp;2011 韓國首爾發明展 金牌</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201112-01.html">2011/12 賀! &nbsp;2011 韓國首爾發明展 銀牌</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201109-02.html">2011/08&nbsp;賀! &nbsp;&nbsp;日本  Good Design Award 入圍</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201109-01.html">2011/09&nbsp;賀! &nbsp; 2011 Altera亞洲創新大賽-台灣區 佳作</a></td>
+          </tr>
+          <tr>
+            <td height="4"><a href="../news-201109-02.html">2011/09&nbsp;賀！ &nbsp;2011 創意新銳設計競賽 入選獎</a></td>
+          </tr>
+          
+</table>
+</div>
+
+
+<div id="apDiv10"></div>
+<p>&nbsp;</p>
+</body>
+</html>
